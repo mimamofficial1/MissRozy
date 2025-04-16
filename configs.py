@@ -18,7 +18,7 @@ URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "http://{}:{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'MissRozyXbot'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -29,34 +29,34 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
-BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-STREAM_LOGS = environ.get('STREAM_LOGS','-1001895607162')
-SESSION = environ.get('SESSION','MissRozy')
+BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002111679640")).split())) 
+STREAM_LOGS = environ.get('STREAM_LOGS','-1002338165303')
+SESSION = environ.get('SESSION','MissRozyXbot')
 CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", 13323016))
-	API_HASH = os.environ.get("API_HASH", "13323016")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","6144687436:AAGShuVn551CQHCWjRkdoBIteGgV0SUWxBo")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001772120203))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazydeveloperr:lazydeveloperr@Cluster0.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001895607162")
+	API_ID = int(os.environ.get("API_ID", 23631217))
+	API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7477277308:AAHeCf5z5ErCBhPY_JMfvgqiZL7MWH9NE-w")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozyXbot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002338165303))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6139759254"))
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://muzaffarimammuhammad:muzaffarimammuhammad@cluster0.pr5n5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002111679640")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002338165303")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	LAZY_CHANNEL = int(os.environ.get('LAZY_CHANNEL','-100'))
 	LAZY_MODE = bool(os.environ.get("LAZY_MODE", False))
-	LAZY_PIC = os.environ.get("LAZY_PIC","https://telegra.ph/file/d382d2fad1fdd2a4ccca4.png")
+	LAZY_PIC = os.environ.get("LAZY_PIC","https://files.catbox.moe/f63tuu.jpg")
 	LP_BTN_MAIN_CH_USRNM = os.environ.get("LP_BTN_MAIN_CH_USRNM")
 	LP_CHANNEL_USRNM = os.environ.get("LP_CHANNEL_USRNM")
 	LPCH_ADMIN_USRMN = os.environ.get("LPCH_ADMIN_USRMN")
 	LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE")
   # LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE","{file_name} - example \n\n Please Upadate this template acording to you @LazyDeveloperr ")
-	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
+	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1002338165303").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 20))
 
@@ -72,16 +72,16 @@ class Config(object):
 
 📡 **ʜᴏꜱᴛᴇᴅ ᴏɴ:** [koyeb](https://app.koyeb.com)
 
-🧑🏻‍💻 **DΞVΞLФPΞЯ:** [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢r](https://t.me/LazyDeveloperr)
+🧑🏻‍💻 **DΞVΞLФPΞЯ:** [꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂](https://t.me/mimam_officialx)
 
-👥 **šupp⊕r† gr⊕up:** [LazY-SupP⊕ЯΓ](https://t.me/LazyDeveloperSupport)
+👥 **šupp⊕r† gr⊕up:** [MRN「 Support Group 」](https://t.me/Tv_Serial_Search_Group)
 
-📢 **U͢p͢d͢a͢t͢e͢s͢ C͢h͢a͢n͢n͢e͢l͢:** [L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢](https://t.me/LazyDeveloper)
+📢 **U͢p͢d͢a͢t͢e͢s͢ C͢h͢a͢n͢n͢e͢l͢:** [ChillFliz | TV Shows](https://t.me/ALL_TV_SERIAL_BACKUP)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 <a href='https://t.me/LazyDeveloperr'>**ミ★- L͢a͢z͢y͢D͢e͢v͢e͢l͢o͢p͢e͢r͢ -★彡** </a>
+🧑🏻‍💻 <a href='https://t.me/mimam_officialx'>**ミ★- ꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂ -★彡** </a>
 
-<a href=''https://t.me/LazyDeveloperr>ʟᴀᴢʏᴅᴇᴠᴇʟᴏᴘᴇʀ</a> ɪꜱ ꜱᴜᴘᴇʀ ɴᴏᴏʙ 😎. ᴊᴜꜱᴛ ʟᴇᴀʀɴɪɴɢ ꜰʀᴏᴍ ᴏꜰꜰɪᴄɪᴀʟ ᴅᴏᴄꜱ. ᴘʟᴇᴀꜱᴇ ᴅᴏɴᴀᴛᴇ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜰᴏʀ ᴋᴇᴇᴘɪɴɢ ᴛʜᴇ ꜱᴇʀᴠɪᴄᴇ ᴀʟɪᴠᴇ.
+<a href=''https://t.me/mimam_officialx>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> ɪꜱ ꜱᴜᴘᴇʀ ɴᴏᴏʙ 😎. ᴊᴜꜱᴛ ʟᴇᴀʀɴɪɴɢ ꜰʀᴏᴍ ᴏꜰꜰɪᴄɪᴀʟ ᴅᴏᴄꜱ. ᴘʟᴇᴀꜱᴇ ᴅᴏɴᴀᴛᴇ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜰᴏʀ ᴋᴇᴇᴘɪɴɢ ᴛʜᴇ ꜱᴇʀᴠɪᴄᴇ ᴀʟɪᴠᴇ.
 ᴀʟꜱᴏ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛꜱ ꜰʀᴏᴍ ᴅᴀᴛᴀʙᴀꜱᴇ. ꜱᴏ ʙᴇᴛᴛᴇʀ ᴅᴏɴ'ᴛ ꜱᴛᴏʀᴇ ᴛʜᴏꜱᴇ ᴋɪɴᴅ ᴏꜰ ᴛʜɪɴɢꜱ.
 [Donate Now](https://p.paytm.me/xCTH/2jym9edy) (Paytm)
 """
